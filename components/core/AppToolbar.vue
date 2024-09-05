@@ -49,10 +49,10 @@
         rounded
         v-if="
           mainData &&
-          mainData.eventInfo.registeration.link.length &&
-          new Date(mainData.eventInfo.registeration.end_date) > new Date()
+          mainData.eventInfo.registration.link.length &&
+          new Date(mainData.eventInfo.registration.end_date) > new Date()
         "
-        :href="mainData.eventInfo.registeration.link"
+        :href="mainData.eventInfo.registration.link"
         class="d-md-flex d-lg-flex d-sm-flex d-none mr-3"
         target="_blank"
         color="#FFD427"
